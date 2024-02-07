@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carros Exclusivos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        p {
+            line-height: 1.6;
+            color: #333;
+        }
+        .car-img {
+            width: 100%;
+            max-width: 400px;
+            display: block;
+            margin: 20px auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Carros Exclusivos</h1>
+    </header>
+    <div class="container">
+        <img src="carro_exclusivo.jpg" alt="Carro Exclusivo" class="car-img">
+        <h2 style="color: #333;">Ferrari LaFerrari</h2>
+        <p style="color: #555;">El Ferrari LaFerrari es un automóvil superdeportivo híbrido producido por el fabricante italiano Ferrari. Fue presentado en el Salón del Automóvil de Ginebra en 2013 como el sucesor del Ferrari Enzo.</p>
+        <img src="carro_exclusivo2.jpg" alt="Carro Exclusivo" class="car-img">
+        <h2 style="color: #333;">Lamborghini Aventador</h2>
+        <p style="color: #555;">El Lamborghini Aventador es un automóvil superdeportivo producido por el fabricante italiano Lamborghini. Fue presentado en el Salón del Automóvil de Ginebra en 2011 como el sucesor del Lamborghini Murciélago.</p>
+    </div>
+</body>
+</html>
